@@ -1,2 +1,2 @@
-# projman-helm
-Simple Helm Chart deploying single PVC for CloudMan's project-wide shared filesystem
+# leo-helm
+Helper chart for Leo to deploy resources in a K8S cluster
