@@ -1,10 +1,10 @@
 {{- if .Values.configs }}
 apiVersion: v1
 metadata:
-  name: {{.Values.projectName}}-projman-configs
+  name: {{ .Release.Name }}-leo-configs
   labels:
-    app.kubernetes.io/name: {{ include "projman.name" . }}
-    helm.sh/chart: {{ include "projman.chart" . }}
+    app.kubernetes.io/name: {{ include "leo.name" . }}
+    helm.sh/chart: {{ include "leo.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 kind: ConfigMap

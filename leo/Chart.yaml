@@ -1,0 +1,8 @@
+  
+apiVersion: v2
+name: leo
+description: Helper chart for Leo to deploy resources in a K8S cluster
+type: application
+version: 0.1.0
+appVersion: 0.1.0
+

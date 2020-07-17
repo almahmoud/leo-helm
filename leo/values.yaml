@@ -1,0 +1,8 @@
+nameOverride: ""
+fullnameOverride: ""
+
+configs: {}
+  # env-key: env-value
+
+secrets: {}
+  # db-password: changeme
